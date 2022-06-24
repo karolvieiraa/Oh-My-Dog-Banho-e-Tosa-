@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Contato | Oh My Dog! </title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function contato(){
+            alert("Sua mensagem foi enviada, obrigado!") ;
+        }
+    </script>
+</head>
+<center><img src="imagem12.png" alt=""></center>
+
+<header>
+    <div class="btn-group">
+        <button class="button"><a href="index.html">Início </a></button>
+        <button class="button"><a href="servicos.html">Serviços </a></button>
+        <button class="button"><a href="contato.html">Contato</a></button>
+        <button class="button"><a href="ondeestamos.html">Onde estamos</a></button>
+    </div>
+</header>
+
+<br>
+
+<body>
+    <center>
+        <h1>Contato</h1>
+    </center>
+    </br>
+        <div class="container">
+        <form action="mailto:guilhermemachado94@gmail.com" onsubmit="contato()">
+      
+          <label for="nomec">Nome Completo</label>
+          <input type="text" id="fname" name="firstname" placeholder="Guilherme Machado Pereira">
+      
+          <label for="email">E-mail</label>
+          <input type="text" id="lname" name="lastname" placeholder="exemplo@gmail.com">
+      
+          <label for="cidade">Cidade</label>
+          <select id="cidade" name="cidade">
+            <option value="florianopolis">Florianopólis</option>
+            <option value="palhoca">Palhoça</option>
+            <option value="saojose">São José</option>
+          </select>
+      
+          <label for="assunto">Assunto</label>
+          <textarea id="assunto" name="subject" placeholder="Conte-nos o motivo de seu contato..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Enviar">
+      
+        </form>
+      </div>
+    <footer>
+        <img src="Design sem nome.png"> </footer>
+</body>
+
+</html>
